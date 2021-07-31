@@ -1,0 +1,36 @@
+.back {
+    background: rgb(168, 109, 109);
+    color: yellow;
+    max-width: 100%;
+
+}
+
+#wrapper{
+    width: 1230px;
+    margin: 0 auto;
+}
+
+#preview{
+    visibility: collapse;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.router {
+    padding: 0;
+}
+
+.img {
+    margin: 1rem 1rem 1rem -0.5rem;
+}
+
+.link {
+    color: yellow;
+    font-size: 25pt;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: yellow;
+    text-decoration: underline;
+}

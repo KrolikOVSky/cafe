@@ -1,0 +1,53 @@
+/***    WeblySleek  ***/
+@font-face {
+    font-family: WeblySleek;
+    src: url(WeblySleek/WeblySleek_Bold/WeblySleek_Bold.eot);
+    src: url(WeblySleek/WeblySleek_Bold/WeblySleek_Bold.svg);
+    src: url(WeblySleek/WeblySleek_Bold/WeblySleek_Bold.woff);
+    src: local(WeblySleek), url(WeblySleek/WeblySleek_Bold/WeblySleek_Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: WeblySleek;
+    src: url(WeblySleek/WeblySleek_Bold-Italic/WeblySleek_Bold-Italic.eot);
+    src: url(WeblySleek/WeblySleek_Bold-Italic/WeblySleek_Bold-Italic.svg);
+    src: url(WeblySleek/WeblySleek_Bold-Italic/WeblySleek_Bold-Italic.woff);
+    src: local(WeblySleek), url(WeblySleek/WeblySleek_Bold-Italic/WeblySleek_Bold-Italic.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+@font-face {
+    font-family: WeblySleek;
+    src: url(WeblySleek/WeblySleek_Italic/WeblySleek_Italic.eot);
+    src: url(WeblySleek/WeblySleek_Italic/WeblySleek_Italic.svg);
+    src: url(WeblySleek/WeblySleek_Italic/WeblySleek_Italic.woff);
+    src: local(WeblySleek), url(WeblySleek/WeblySleek_Italic/WeblySleek_Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: WeblySleek;
+    src: url(WeblySleek/WeblySleek_Light/WeblySleek_Light.eot);
+    src: url(WeblySleek/WeblySleek_Light/WeblySleek_Light.svg);
+    src: url(WeblySleek/WeblySleek_Light/WeblySleek_Light.woff);
+    src: local(WeblySleek), url(WeblySleek/WeblySleek_Light/WeblySleek_Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: WeblySleek_Light-Italic;
+    src: url(WeblySleek/WeblySleek_Light-Italic/WeblySleek_Light-Italic.eot);
+    src: url(WeblySleek/WeblySleek_Light-Italic/WeblySleek_Light-Italic.svg);
+    src: url(WeblySleek/WeblySleek_Light-Italic/WeblySleek_Light-Italic.woff);
+    src: local(WeblySleek_Light-Italic), url(WeblySleek/WeblySleek_Light-Italic/WeblySleek_Light-Italic.ttf);
+}
+@font-face {
+    font-family: WeblySleek_SemiLight;
+    src: url(WeblySleek/WeblySleek_SemiLight/WeblySleek_SemiLight.eot);
+    src: url(WeblySleek/WeblySleek_SemiLight/WeblySleek_SemiLight.svg);
+    src: url(WeblySleek/WeblySleek_SemiLight/WeblySleek_SemiLight.woff);
+    src: local(WeblySleek_SemiLight), url(WeblySleek/WeblySleek_SemiLight/WeblySleek_SemiLight.ttf);
+}
