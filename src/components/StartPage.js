@@ -5,6 +5,8 @@ export default class StartPage extends Component {
 		return (
 			<div>
 				<h1 className={"display-1"}>Start Page</h1>
+
+
 			</div>
 		)
 	}

@@ -1,6 +1,17 @@
 @import "../fonts/Fonts.css";
 
 body{
-    /*font-family: WeblySleek_SemiLight, serif;*/
-    font-family: WeblySleek_Light, serif;
+    background-color: #b99f63;
+    font-family: WeblySleek_SemiLight, serif;
+
+
+}
+
+.temp{
+    height: 2000px;
+}
+
+
+.content{
+    height:2000px;
 }

@@ -1,0 +1,38 @@
+.modal__wrapper{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+    /*-webkit-backdrop-filter: blur(10px);*/
+    z-index: 2000;
+    overflow-y: scroll;
+}
+
+.modal__wrapper.open{
+    height: 100%;
+    display: block;
+}
+
+.modal__wrapper.close{
+    height: 0;
+    display: none;
+}
+
+.modal__body{
+    max-width: 500px;
+    margin: 5% auto auto;
+    padding: 20px;
+    border-radius: 5px;
+    backdrop-filter: blur(50px);
+    background-color: rgba(255,255,255,0.8);
+}
+
+.modal__close{
+    text-align: right;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    margin-left: 98%;
+    font-size: 17pt;
+    cursor: pointer;
+}

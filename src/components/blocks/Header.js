@@ -7,12 +7,11 @@ const size = 70;
 export default class Header extends Component {
 	render() {
 		return (
-			<Navbar collapseOnSelect sticky="top" fixed="top" variant="dark" expand="lg" className="back px-2 mb-4">
+			<Navbar id={"header"} collapseOnSelect fixed={"top"} sticky={"top"} variant="dark" expand="lg" className="back header px-2 mb-4">
 				<Navbar.Toggle className="" variant="dark" aria-controls="responsive-navbar-nav"/>
 
 				<Navbar.Brand as={Link} to={"/"} className="mx-auto">
-					<img className="mb-1 mt-1 mr-2" src={"/logo.png"} width={size} height={size} alt="Home"/>{' '}
-					Итальянцы в России
+					<img className="mb-1 mt-1 mr-2" src={"/logo_daRoberto_old.png"} height={size} alt="Home"/>
 				</Navbar.Brand>
 
 				<Navbar.Collapse id="responsive-navbar-nav" className="mx-auto">

@@ -8,7 +8,7 @@ const authorMark = '\u00A9';
 export default class Footer extends React.Component {
 	render() {
 		return (
-			<footer className="container-fluid mt-4 px-4 py-2 back">
+			<footer id={"footer"} className="container-fluid mt-4 px-4 py-2 back">
 				<hr/>
 				<div className="container-fluid row align-items-center mx-auto">
 
@@ -17,16 +17,16 @@ export default class Footer extends React.Component {
 						<Link className="text-white-50" to={"#siteMap"}>Карта Сайта</Link>
 					</div>
 
-{/*					<div className="col text-center">
+					<div className="col text-center">
 						<a className="" href="tel:+79789393001">
-							<img className="rounded rounded-circle img-social" src={"/social/phone.png"}
+							<img className="rounded rounded-circle img-social" src={"/files/phone.png"}
 							     alt="+79789393001"/>
 						</a>
 
-						<Link className="" to={"#instagram"}>
-							<img className="rounded rounded-circle img-social" src={"/social/pngegg.png"} alt="Instagram"/>
-						</Link>
-					</div>*/}
+						<a className="" href={"#c"}>
+							<img className="img-social col" src={"/files/instagram.png"} alt="Instagram"/>
+						</a>
+					</div>
 
 					<div className="col">
 						<p align="right">Site was created by</p>

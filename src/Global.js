@@ -1,5 +1,6 @@
 export class Global {
-	static url = "https://cafe-back.herokuapp.com"
+	static url = "http://cafe-back.herokuapp.com"
+	// static url = "http://localhost:8080"
 	static groups = `${this.url}/api/group`
 	static deletedGroups = `${this.url}/api/group/del`
 	static products = `${this.url}/api/product`
@@ -8,58 +9,63 @@ export class Global {
 
 	static testGroups =  [
 			{
-				name: "first",
+				name: "First",
+				linkName: "linkFirst",
 				products: [
-					{name: "first 1"},
-					{name: "first 2"},
-					{name: "first 3"},
-					{name: "first 4"},
-					{name: "first 5"},
-					{name: "first 6"}
+					{name: "First 1"},
+					{name: "First 2"},
+					{name: "First 3"},
+					{name: "First 4"},
+					{name: "First 5"},
+					{name: "First 6"}
 				]
 			},
 			{
-				name: "second",
+				name: "Second",
+				linkName: "linkSecond",
 				products: [
-					{name: "second 1"},
-					{name: "second 2"},
-					{name: "second 3"},
-					{name: "second 4"},
-					{name: "second 5"},
-					{name: "second 6"}
+					{name: "Second 1"},
+					{name: "Second 2"},
+					{name: "Second 3"},
+					{name: "Second 4"},
+					{name: "Second 5"},
+					{name: "Second 6"}
 				]
 			},
 			{
-				name: "third",
+				name: "Third",
+				linkName: "linkThird",
 				products: [
-					{name: "third 1"},
-					{name: "third 2"},
-					{name: "third 3"},
-					{name: "third 4"},
-					{name: "third 5"},
-					{name: "third 6"}
+					{name: "Third 1"},
+					{name: "Third 2"},
+					{name: "Third 3"},
+					{name: "Third 4"},
+					{name: "Third 5"},
+					{name: "Third 6"}
 				]
 			},
 			{
-				name: "fourth",
+				name: "Fourth",
+				linkName: "linkFourth",
 				products: [
-					{name: "fourth 1"},
-					{name: "fourth 2"},
-					{name: "fourth 3"},
-					{name: "fourth 4"},
-					{name: "fourth 5"},
-					{name: "fourth 6"}
+					{name: "Fourth 1"},
+					{name: "Fourth 2"},
+					{name: "Fourth 3"},
+					{name: "Fourth 4"},
+					{name: "Fourth 5"},
+					{name: "Fourth 6"}
 				]
 			},
 			{
-				name: "fifth",
+				name: "Fifth",
+				linkName: "linkFifth",
 				products: [
-					{name: "fifth 1"},
-					{name: "fifth 2"},
-					{name: "fifth 3"},
-					{name: "fifth 4"},
-					{name: "fifth 5"},
-					{name: "fifth 6"}
+					{name: "Fifth 1"},
+					{name: "Fifth 2"},
+					{name: "Fifth 3"},
+					{name: "Fifth 4"},
+					{name: "Fifth 5"},
+					{name: "Fifth 6"}
 				]
 			},
 		];

@@ -1,4 +1,18 @@
+#menuElements{
+    /*top: 128px;*/
+}
+
+:target {
+    scroll-margin-top: 160px;
+}
+
+#menu{
+    z-index: 0;
+}
+
 .img{
+    z-index: 0;
+    overflow: hidden;
     max-height: 280px;
     max-width: 276px;
     margin: 0 -20px 0 -20px;
@@ -13,6 +27,7 @@
     /*min-height: 320px !important;*/
     /*max-height: 360px !important;*/
     /*height: 360px !important;*/
+    z-index: 0;
     max-width: 280px !important;
     background-color: rgba(255,255,255,0.0);
     text-decoration: none;

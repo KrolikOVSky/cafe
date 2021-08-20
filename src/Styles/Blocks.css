@@ -1,7 +1,14 @@
 .back {
-    background: rgb(168, 109, 109);
+    background: rgb(0,0,0);
     color: yellow;
     max-width: 100%;
+}
+
+.header{
+
+}
+
+.footer{
 
 }
 
@@ -14,10 +21,6 @@
     visibility: collapse;
     width: 0 !important;
     height: 0 !important;
-}
-
-.router {
-    padding: 0;
 }
 
 .img {
@@ -33,4 +36,10 @@
 .link:hover {
     color: yellow;
     text-decoration: underline;
+}
+
+.img-social{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
 }
