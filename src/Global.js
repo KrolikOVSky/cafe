@@ -1,6 +1,6 @@
 export class Global {
-	static url = "http://cafe-back.herokuapp.com"
-	// static url = "http://localhost:8080"
+	// static url = "http://cafe-back.herokuapp.com"
+	static url = "http://localhost:8081"
 	static groups = `${this.url}/api/group`
 	static deletedGroups = `${this.url}/api/group/del`
 	static products = `${this.url}/api/product`
