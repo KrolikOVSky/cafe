@@ -16,7 +16,7 @@ export default class Navigation extends Component {
 			const scrolled = document.documentElement.scrollTop
 			let containsFixed = nav.classList.contains("fixed")
 
-			console.log(scrolled);
+			// console.log(scrolled);
 
 			if (scrolled > navOffset - headerOffset && !containsFixed) {
 				nav.classList.add("fixed")

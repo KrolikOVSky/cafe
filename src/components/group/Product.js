@@ -4,10 +4,11 @@ import "../../Styles/Menu.css"
 
 export default class Product extends Component {
 	render() {
+		console.log(this.props.img)
 		return (
 			<Link to={`${this.props.link}`} className={"col grp-btn"}>
 				<div>
-					<img className={"img"} src={this.props.img} alt=""/>
+					<img className={"img"} src={this.props.img} alt={this.props.name}/>
 				</div>
 				<h4>{this.props.name}</h4>
 				<h6>{this.props.shortDesc}</h6>

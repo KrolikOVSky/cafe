@@ -7,8 +7,8 @@ import "../../Styles/Main.css"
 export default class AdminPanel extends Component {
 
 	state = {
-		modalGroup: true,
-		modalProduct: false
+		modalGroup: false,
+		modalProduct: true
 	}
 
 	render() {

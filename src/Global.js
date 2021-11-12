@@ -1,10 +1,12 @@
 export class Global {
 	// static url = "http://cafe-back.herokuapp.com"
+	// static url = "http://158.101.219.165"
 	static url = "http://localhost:8081"
-	static groups = `${this.url}/api/group`
-	static deletedGroups = `${this.url}/api/group/del`
-	static products = `${this.url}/api/product`
-	static deletedProducts = `${this.url}/api/product/del`
+	static groups           = `${this.url}/api/group`
+	static deletedGroups    = `${this.url}/api/group/del`
+	static products         = `${this.url}/api/product`
+	static deletedProducts  = `${this.url}/api/product/del`
+	static image            = `${this.url}/api/img`
 	static ruble = "\u20bd"
 
 	static testGroups =  [
@@ -69,7 +71,4 @@ export class Global {
 				]
 			},
 		];
-
-
-
 }
